@@ -121,7 +121,7 @@
     if (confirm("是否开始?")) {
       waiting = true
       $msg.style.display = "none"
-      ws = new WebSocket('ws://qilong4396.natapp1.cc')
+      ws = new WebSocket('ws://localhost')
       ws.onopen = function (e) {
         console.log("连接成功")
       }
