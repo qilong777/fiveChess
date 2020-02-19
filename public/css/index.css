@@ -39,6 +39,7 @@ ul li {
     height: 700px;
     margin: 50px auto;
     cursor: pointer;
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
     border: 1px solid black;
 }
@@ -93,6 +94,7 @@ ul li {
     outline: none;
     background-color: #ff941a;
     color: #fff;
+    -webkit-transition: background 0.3s, color 0.3s;
     transition: background 0.3s, color 0.3s;
 }
 
@@ -113,6 +115,7 @@ ul li {
     margin: 25px auto;
     cursor: pointer;
     background-color: #000;
+    -webkit-transition: background 0.3s;
     transition: background 0.3s;
 }
 
